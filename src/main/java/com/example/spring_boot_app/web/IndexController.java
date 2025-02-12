@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @RequiredArgsConstructor
-@Controller
+@Controller("indexControllerWeb")
 public class IndexController {
 
     private final PostsService postsService;
